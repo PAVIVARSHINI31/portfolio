@@ -343,7 +343,7 @@ function Hero() {
               className="absolute inset-0 rounded-3xl opacity-0 hover:opacity-100 transition-opacity duration-300"
             />
             <img
-             <img src="/profile.png" />
+             <img src="./profile.png" />
               alt="profile"
               className="relative rounded-3xl w-[280px] h-[360px] object-cover"
             />
