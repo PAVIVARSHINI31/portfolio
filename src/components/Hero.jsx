@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail, ArrowDown, Code2, Sparkles, Zap, Star } from 'lucide-react'
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 import { useState, useEffect } from 'react'
+import profile from '../assets/profile.png'
 
 function Hero() {
   // Typing Effect
@@ -343,7 +344,7 @@ function Hero() {
               className="absolute inset-0 rounded-3xl opacity-0 hover:opacity-100 transition-opacity duration-300"
             />
             <img
-              src="/portfolio/profile.png" 
+              src={profile} 
               alt="profile"
               className="relative rounded-3xl w-[280px] h-[360px] object-cover"
             />
