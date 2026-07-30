@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Menu, X, Moon, Sun } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 function Navbar({ darkMode, setDarkMode }) {
@@ -51,14 +51,7 @@ function Navbar({ darkMode, setDarkMode }) {
           {/* Right Controls */}
           <div className="flex items-center space-x-4">
             {/* Dark Mode Toggle */}
-            <motion.button
-              whileHover={{ scale: 1.1, rotate: 180 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={() => setDarkMode(!darkMode)}
-              className="p-2 rounded-lg bg-[#D4AF37]/10 text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition"
-            >
-              {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </motion.button>
+            
 
             {/* Mobile Menu Button */}
             <motion.button
