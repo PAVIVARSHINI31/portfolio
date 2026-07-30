@@ -5,7 +5,7 @@ This project showcases my skills, projects, and experience as a **Computer Scien
 
 ## 🚀 Live Demo
 
-🔗 https://your-portfolio-link.com
+🔗https://pavivarshini31.github.io/portfolio/
 
 ## 📌 About Me
 
